@@ -1,6 +1,5 @@
 import { ClerkProvider } from "@clerk/nextjs";
 import { Inter, Space_Grotesk } from "next/font/google";
-import React from "react";
 import "./globals.css";
 import type { Metadata } from "next";
 
@@ -16,7 +15,7 @@ const spaceGrotesk = Space_Grotesk({
   variable: "--font-spaceGrotesk",
 });
 
-export const meta: Metadata = {
+export const metadata: Metadata = {
   title: "DevFlow",
   description:
     "A Community for Developers to share and discover new ideas. Explore the latest tech trends and connect with other developers.",
